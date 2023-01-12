@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@id/addBmiDetailsFragment">
+    <fragment
+        android:id="@+id/addBmiDetailsFragment"
+        android:name="com.example.arditakrasniqi.presentation.ui.addbmidetails.AddBmiDetailsFragment"
+        android:label="Add BMI Details"
+        tools:layout="@layout/fragment_add_bmi_details">
+        <action
+            android:id="@+id/action_addBmiDetailsFragment_to_bmiDetailsFragment"
+            app:destination="@id/bmiDetailsFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/bmiDetailsFragment"
+        android:name="com.example.arditakrasniqi.presentation.ui.bmidetails.BmiDetailsFragment"
+        android:label="BMI Details"
+        tools:layout="@layout/fragment_bmi_details" >
+        <argument
+            android:name="name"
+            app:argType="string" />
+        <argument
+            android:name="result"
+            app:argType="float" />
+        <action
+            android:id="@+id/action_bmiDetailsFragment_to_addBmiDetailsFragment"
+            app:destination="@id/addBmiDetailsFragment" />
+
+    </fragment>
+</navigation>

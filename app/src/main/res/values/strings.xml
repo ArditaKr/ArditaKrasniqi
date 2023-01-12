@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">ArditaKrasniqi</string>
+    <string name="add_bmi_details_fragment">Add BMI Details</string>
+    <string name="bmi_details_fragment">BMI Details</string>
+    <string name="name"><font size="15">Name</font></string>
+    <string name="ID_BANNER">ca-app-pub-3940256099942544/6300978111</string>
+    <string name="Interstitial">ca-app-pub-3940256099942544/1033173712</string>
+    <string name="enter_personal_detail">Enter Personal Detail</string>
+    <string name="calculate_your_body_mass_index">Calculate Your Body Mass Index</string>
+    <string name="weight">Weight</string>
+    <string name="height">Height</string>
+    <string name="gender">Gender</string>
+    <string name="calculate">Calculate</string>
+    <string name="body_mass_index">Body Mass Index</string>
+    <string name="_18">18</string>
+    <string name="_61">.61</string>
+    <string name="hello_olivia_you_are_normal">HELLO OLIVIA, YOU ARE NORMAL</string>
+    <string name="normal_bmi_range_18_5kg_m2_25kg_m2">Normal BMI range: 18.5kg/m2 - 25kg/m2</string>
+    <string name="ponderal_index_10_64kg_m3">Ponderal Index: 10.64kg/m3</string>
+    <string name="share">Share</string>
+    <string name="rate">Rate</string>
+</resources>
